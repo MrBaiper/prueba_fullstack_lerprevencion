@@ -1,0 +1,9 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #101820, #1c2833);
+  color: #f1f1f1;
+  min-height: 100vh;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+}

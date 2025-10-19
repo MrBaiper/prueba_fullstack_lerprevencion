@@ -1,0 +1,138 @@
+/* body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #101820, #1c2833);
+  color: #f1f1f1;
+  min-height: 100vh;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+} */
+
+h2 {
+  font-weight: 600;
+  color: #0dcaf0;
+  letter-spacing: 1px;
+}
+
+.table-container {
+  background: #f8f9fa;
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  padding: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+table {
+  color: #f8f9fa;
+  border-radius: 16px;
+}
+
+.table thead {
+  background-color: #0dcaf0;
+  color: #000;
+}
+
+.table tbody tr {
+  transition: 0.2s ease;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(13, 202, 240, 0.1);
+}
+
+.btn-add {
+  background: linear-gradient(90deg, #0dcaf0, #0d6efd);
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.btn-add:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #0b97bd, #0947a6);
+}
+
+.acciones .btn {
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: #000;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-danger:hover {
+  background-color: #b02a37;
+}
+
+.modal-content {
+  background: #1e2a35;
+  color: #fff;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.modal-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.modal-header.bg-primary {
+  background: linear-gradient(90deg, #0dcaf0, #0d6efd);
+  border-bottom: none;
+}
+
+.modal-header.bg-warning {
+  background: linear-gradient(90deg, #f9c74f, #f8961e);
+}
+
+.modal-header.bg-danger {
+  background: linear-gradient(90deg, #dc3545, #a71d2a);
+}
+
+input.form-control {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}
+
+input.form-control:focus {
+  border-color: #0dcaf0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 202, 240, 0.25);
+}
+
+.btn-success {
+  background: linear-gradient(90deg, #198754, #157347);
+  border: none;
+}
+
+.btn-success:hover {
+  transform: scale(1.03);
+  background: linear-gradient(90deg, #1ea564, #13693d);
+}
+
+.footer {
+  margin-top: auto;
+  text-align: center;
+  color: #aaa;
+  font-size: 0.9rem;
+  padding: 15px 0;
+}
+
+
